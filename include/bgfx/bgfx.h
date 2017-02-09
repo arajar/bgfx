@@ -2821,6 +2821,10 @@ namespace bgfx
 	///
 	void saveScreenShot(const char* _filePath);
 
+	/// Get Resolution size from a given ratio
+	///
+	void getSizeFromRatio(BackbufferRatio::Enum _ratio, uint16_t& _width, uint16_t& _height);
+
 } // namespace bgfx
 
 #endif // BGFX_H_HEADER_GUARD
